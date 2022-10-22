@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 
-import Flat from './flat';
+import FlatList from './flatList';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <div className="flat-list">
-          <Flat className="card" />
-        </div>
+        <FlatList />
         <div className="map-container">
           Map container
         </div>
