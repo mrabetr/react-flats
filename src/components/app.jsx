@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import FlatList from './flatList';
+import GoogleMap from './googleMap';
 
 class App extends Component {
   render() {
@@ -8,7 +9,7 @@ class App extends Component {
       <div>
         <FlatList />
         <div className="map-container">
-          Map container
+          <GoogleMap />
         </div>
       </div>
     );
