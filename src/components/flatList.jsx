@@ -4,6 +4,10 @@ import Flat from './flat';
 import flats from '../data/flats';
 
 class FlatList extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <div className="flat-list">
@@ -15,6 +19,9 @@ class FlatList extends Component {
               url={flat.imageUrl}
               price={`${flat.price} ${flat.priceCurrency}`}
               description={flat.name}
+              lat={flat.lat}
+              lng={flat.lng}
+              markFlat={this.props.markFlat}
             />
           );
         })}
