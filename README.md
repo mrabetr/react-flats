@@ -11,6 +11,13 @@ Simple react starter with the following config:
 
 ## Scripts
 
+To install dependencies:
+
+```bash
+nvm use v14.17.0
+yarn install
+```
+
 To start the local Webpack Dev Server (usually on port `8080`):
 
 ```bash
