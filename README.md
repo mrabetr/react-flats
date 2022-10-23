@@ -14,7 +14,7 @@ Simple react starter with the following config:
 To install dependencies:
 
 ```bash
-nvm use v14.17.0
+nvm use v14.15.0
 yarn install
 ```
 
